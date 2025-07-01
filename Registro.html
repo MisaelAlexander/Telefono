@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro</title>
+  <link rel="stylesheet" href="CSS/Registro.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="#" class="back">&#x276E;</a>
+    <h2>REGISTRO</h2>
+    <p>Regístrate y crea tu cuenta</p>
+
+    <form id="registroForm">
+      Nombre 
+      <input type="text" id="nombre" placeholder="Nombre" required />
+      Apellido
+      <input type="text" id="apellido" placeholder="Apellido" required />
+      DUI
+      <input type="text" id="dui" placeholder="DUI" required />
+      Dirección
+      <input type="text" id="direccion" placeholder="Dirección" required />
+      Correo
+      <input type="email" id="correo" placeholder="Correo" required />
+      Telefono
+      <input type="tel" id="telefono" placeholder="Teléfono" required />
+
+      <label for="foto">Foto de Perfil</label>
+      <input type="file" id="foto" accept="image/*" />
+      <div class="preview-container">
+        <img id="preview" src="" alt="Vista previa" style="display: none;" />
+      </div>
+
+      <button type="submit" class="btn">Siguiente paso</button>
+      <p class="mensaje-exito" id="mensajeExito" style="display: none;">¡Registro completado con éxito!</p>
+      <p class="mensaje-error" id="mensajeError" style="display: none;"></p>
+    </form>
+  </div>
+
+  <script src="JS/Registro.js"></script>
+</body>
+</html>
