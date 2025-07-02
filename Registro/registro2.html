@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro</title>
+  <link rel="stylesheet" href="Registro2.css" />
+</head>
+<body>
+  <div class="container">
+    <a href="registro.html" class="back">&#x276E;</a>
+    <h2>REGISTRO</h2>
+    <p>Regístrate y crea tu cuenta</p>
+
+    <form id="registroForm">
+      Usuario
+      <input type="text" id="usuario" placeholder="Usuario" required />
+      Gmail
+      <input type="email" id="gmail" placeholder="Gmail" required />
+      Contraseña
+      <input type="password" id="password" placeholder="Contraseña" required />
+      Confirma Contraseña
+      <input type="password" id="confirmar" placeholder="Confirmar contraseña" required />
+
+      <button type="submit" class="btn">Crear Cuenta</button>
+      <p class="mensaje-exito" id="mensajeExito" style="display: none;">¡Cuenta creada con éxito!</p>
+      <p class="mensaje-error" id="mensajeError" style="display: none;"></p>
+    </form>
+  </div>
+
+  <script src="registro2.js"></script>
+  
+  </script>
+</body>
+</html>
