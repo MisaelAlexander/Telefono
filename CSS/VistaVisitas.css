@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+  }
+  
+  .contenedor-casa {
+    max-width: 420px;
+    margin: auto;
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    
+  }
+  
+  .imagen-casa img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .info-vendedor {
+    text-align: center;
+    margin-top: 12px;
+  }
+  
+  .info-vendedor h3 {
+    margin: 0;
+    color: #1b1b1b;
+  }
+  
+  .rating {
+    color: #ffcc00;
+    font-size: 1.2rem;
+    margin-top: 4px;
+  }
+  
+  .info-breve {
+    text-align: center;
+    margin: 16px 0;
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .mapa-real {
+    margin-top: 12px;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
+  .descripcion {
+    margin: 16px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .boton-reserva {
+    text-align: center;
+    margin-top: 12px;
+  }
+  
+  .boton-reserva button {
+    background-color: #fbbd08;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-reserva button:hover {
+    background-color: #e0a800;
+  }
+  
+
+  .back {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    color: #F7AD19;
+    cursor: pointer;
+    padding: 5px;
+  }
